@@ -1,3 +1,4 @@
+import java.util.Queue;
 import java.util.Scanner;
 
 public class RemoveNthNodeFromEnd {
@@ -66,6 +67,7 @@ public class RemoveNthNodeFromEnd {
             counter++;
         }
         prev.next=current.next;
+
     }
 
     private int findLengthofLL() {
