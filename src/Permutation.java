@@ -1,7 +1,7 @@
 public class Permutation {
     public static void main(String[] args) {
     Permutation obj =new Permutation();
-    StringBuilder st=new StringBuilder("MAN");
+    StringBuilder st=new StringBuilder("123");
     StringBuilder chosen=new StringBuilder("");
     obj.permutationofString(st,chosen);
     }

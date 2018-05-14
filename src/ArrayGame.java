@@ -2,7 +2,8 @@ public class ArrayGame {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-        int[] arr={5,6,8,8,5};
+        //int[] arr={5,6,8,8,5};
+        int[] arr={1,2,3};
         int res=findMinimumMoves(arr);
         System.out.println(res);
     }

@@ -11,7 +11,7 @@
 import java.util.Arrays;
 public class FirstNonRepeatingCharacter {
     public static void main(String[] args) {
-        String st="ADBCGHIEFKJLADTVDERFSWVGHQWCNOPENSMSJWIERTFB";
+        String st="ZADBCGHIEFKJLADTVDERFSWVGHQWCNOPENSMSJWIERTFB";
         FirstNonRepeatingCharacter obj=new FirstNonRepeatingCharacter();
         obj.findCharacter(st.toUpperCase(),st.length());
     }
